@@ -1,14 +1,11 @@
 [project]
-name = "python_project"
+name = "community_house_watch"
 version = "0.1.0"
-description = "A Python project"
+description = "A dog that help you watch 591 house change in specific communities"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "fastapi[all]>=0",
-    "numpy>=2",
-    "plotly>=5",
-    "polars>=1",
+    "crawlee[all]>=0",
 ]
 
 [dependency-groups]
